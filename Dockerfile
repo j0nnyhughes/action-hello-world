@@ -10,7 +10,7 @@ LABEL "homepage"="http://github.com/actions"
 LABEL "maintainer"="Octocat <octocat@github.com>"
 
 RUN apt-get update
-RUN apt-get install curl
+RUN apt-get -y install curl
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x entrypoint.sh
