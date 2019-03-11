@@ -19,6 +19,3 @@ then
 else
     echo "LOOKS GOOD"
 fi
-
-echo $GITHUB_TOKEN
-echo `token: ${GITHUB_TOKEN}`
