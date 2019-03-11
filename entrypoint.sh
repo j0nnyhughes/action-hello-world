@@ -1,8 +1,9 @@
-#! /bin/sh -l
+#! /bin/sh
 api_version=3
 api_root='https://api.github.com'
 
-if [[ -z "$GITHUB_TOKEN" ]]; then
+if [ -z "$GITHUB_TOKEN" ]
+then
 	echo "Set the GITHUB_TOKEN env variable."
 	exit 1
 fi
